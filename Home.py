@@ -36,7 +36,9 @@ def app():
         st.write(
             "**Start Your Data Analysis From Left SideBar**"
         )
-
+        url = "https://github.com/ChinaFakeOrange/DataER-EasyDataAnalysis"
+        # st.write("check out this [link](%s)" % url)
+        st.markdown("If you like, give me a star！[link](%s)" % url)
     # ---- WHAT I DO ----
     with st.container():
         st.write("---")
